@@ -1,12 +1,9 @@
-
 <?php
-
 class Tabela
 {
 
-    public function mostrar($url)
+    public function listar($url)
     {
-
         $con = new PDO('mysql: host=locahost; dbname=sistema;','root','');
 
         $tabela = $url[0];
